@@ -1,0 +1,18 @@
+﻿<Window x:Class="CanvasUp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CanvasUp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="275" Width="615">
+    <Grid AllowDrop="true">
+        <ListBox x:Name="lstPictures" Margin="10,40,140,10" PreviewDrop="LstPictures_PreviewDrop" PreviewDragEnter="LstPictures_PreviewDragEnter" PreviewDragOver="LstPictures_PreviewDragEnter"/>
+        <Button x:Name="btnResize" Content="Change Canvas Size" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="120" Click="BtnResize_Click"/>
+        <TextBox x:Name="txtNewWdith" HorizontalAlignment="Right" Height="23" Margin="0,35,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="256"/>
+        <TextBox x:Name="txtNewHeight" HorizontalAlignment="Right" Height="23" Margin="0,63,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="256"/>
+        <CheckBox x:Name="chkStitch" Content="Stitch" HorizontalAlignment="Right" Margin="0,91,10,0" VerticalAlignment="Top" RenderTransformOrigin="0.401,-0.169" Width="120"/>
+        <Button x:Name="btnClearList" Content="Clear List" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="120" Click="btnClearList_Click"/>
+        <Label Content="Drag image(s) here" Margin="10,10,140,0" VerticalAlignment="Top" Width="465"/>
+    </Grid>
+</Window>

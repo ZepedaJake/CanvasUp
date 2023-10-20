@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasUp", "CanvasUp\CanvasUp.csproj", "{8F0755C8-C3C5-4189-B563-EB80CAFD72FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F0755C8-C3C5-4189-B563-EB80CAFD72FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0755C8-C3C5-4189-B563-EB80CAFD72FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0755C8-C3C5-4189-B563-EB80CAFD72FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0755C8-C3C5-4189-B563-EB80CAFD72FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F68C1020-88AF-4AA1-ADDB-3A4743CA765B}
+	EndGlobalSection
+EndGlobal
